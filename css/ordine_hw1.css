@@ -1,0 +1,84 @@
+
+header h1 {
+    font-size: 4em;
+    letter-spacing: 2px;
+}
+
+header p{
+    font-family: 'Anitas',sans-serif;
+    color: var(--color3);
+    font-size: 4em;
+    z-index: 1;
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 500px){
+
+    header{
+        font-size: 0.5em;
+    }
+}
+
+section{
+    justify-content: center;
+}
+
+section h1{
+    color:var(--color3);
+}
+
+
+
+@media (max-width:500px){
+    section h1{
+        font-size:1.2em;
+        margin-bottom:0;
+    }
+}
+
+form{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content:  center;
+    align-items: space-between;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10%;
+    text-align: center;
+    background-image: radial-gradient(circle at 68.3% 118.3%, #9fdbdd 0, #9fdae1 4.17%, #a0dae5 8.33%, #a1d9e9 12.5%, #a4d8ec 16.67%, #a7d7ef 20.83%, #abd6f1 25%, #b0d5f3 29.17%, #b5d3f4 33.33%, #bbd2f4 37.5%, #c1d0f4 41.67%, #c7cff3 45.83%, #cdcdf2 50%, #d3cbf0 54.17%, #d9caed 58.33%, #dec8ea 62.5%, #e3c7e7 66.67%, #e8c6e3 70.83%, #ecc5df 75%, #efc4da 79.17%, #f2c4d6 83.33%, #f4c3d1 87.5%, #f6c3cc 91.67%, #f7c3c8 95.83%, #f7c4c3 100%);
+    border-radius:70px;
+}
+
+label{
+    font-family: 'Source Serif Pro',sans-serif;
+    color: var(--color1);
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form p{
+    margin: 0.5 em;
+    color: var(--color2);
+}
+input{
+    border-radius: 50px;
+    border: 1px solid var(--color2);
+    background-color: var(--color1);
+}
+
+@media(max-width: 500px){
+    form{
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media (max-width:500px){
+    footer{
+        height:100px;
+    }
+}

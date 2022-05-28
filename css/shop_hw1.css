@@ -1,0 +1,202 @@
+
+@media (max-width: 500px){
+    header h1{
+        line-height: 1;
+    }
+
+    header h1 strong{
+        font-size: 1.5em;
+    }
+}
+
+section{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+section div h1{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+section div p{
+    font-size: 1em;
+    font-family: 'Source Serif Pro', serif;
+    margin: 5px;
+}
+
+.articoli{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: radial-gradient(circle at 68.3% 118.3%, #9fdbdd 0, #9fdae1 4.17%, #a0dae5 8.33%, #a1d9e9 12.5%, #a4d8ec 16.67%, #a7d7ef 20.83%, #abd6f1 25%, #b0d5f3 29.17%, #b5d3f4 33.33%, #bbd2f4 37.5%, #c1d0f4 41.67%, #c7cff3 45.83%, #cdcdf2 50%, #d3cbf0 54.17%, #d9caed 58.33%, #dec8ea 62.5%, #e3c7e7 66.67%, #e8c6e3 70.83%, #ecc5df 75%, #efc4da 79.17%, #f2c4d6 83.33%, #f4c3d1 87.5%, #f6c3cc 91.67%, #f7c3c8 95.83%, #f7c4c3 100%);
+    max-height: 20%;
+    max-width: 20%;
+}
+
+.articoli h2{
+    color: var(--color2);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+.articoli em{
+    margin-bottom: 5%;
+}
+
+.articoli img{
+    max-width: 45%;
+    max-height: 45%;
+    margin-top: 5%;
+    box-shadow: 5px 5px var(--color2);
+}
+.articoli div img{
+    max-width: 50px;
+    max-height: 50px;
+    box-shadow:none;
+    border-radius: 100px;
+}
+.articoli .recensioni{
+    color:black;
+    margin:5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.recensioni p{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    padding:5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    text-align:center;
+    color: var(--color3);
+    font-size:1.2em;
+}
+.recensioni div p p{
+    font-size:0.6em;
+    padding:5%;
+    border-radius:0;
+    color:black;
+     box-shadow: 5px 5px var(--color2);
+    background-color: var(--color1);
+}
+.recensioni button{
+    max-height:100%;
+    max-width:30%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.recensioni button p{
+    margin-top:9px;
+    color: var(--color1);
+}
+.recensioni button img{
+    max-height: 100%;
+    max-width:70%;
+    margin-left:20%;
+}
+
+.recensioni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.articoli button{
+    color: var(--color1);
+    border-radius: 100px;
+    background-color: var(--color3);
+    margin-right: 10%;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid var(--color1);
+    margin:0;
+}
+
+ section div button:hover{
+    color:var(--color3);
+    background-color: white;
+}
+
+@media (max-width:500px){
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .articoli{
+        max-width:50%;
+    }
+
+    .recensioni button{
+        max-width:50%;
+        max-height:40%;
+        padding:0;
+    }
+    .recensioni p{
+        padding:0;
+    }
+    .recensioni button img{
+        max-height: 20%;
+        max-width:30%;
+        margin-bottom:3%;
+    }
+    .recensioni{
+        margin: 5%;
+    }
+    .recensioni div{
+        font-size:0.7em;
+        text-align:center;
+    }
+    .recensioni div p{
+        padding:5%;
+        width:100%;
+        margin-left:5%;
+    }
+    section div{
+        max-height: 70% ;
+        max-width: 70%;
+    }
+}
+
+header form{
+    z-index: 1;
+}
+header form label{
+    margin-right:2%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+header form label input{
+    margin-left:2%;
+    border-radius: 100px;
+    border: 1px solid var(--color3);
+    background-color: rgb(255 255 242 / 61%);
+}
+#misura{
+    color:var(--color1);
+    background-color:var(--color3);
+    border:1px solid var(--color1);
+    border-radius:100px;
+}
+@media(max-width:500px){
+    footer{
+        height:100px;
+    }
+    header form label input{
+        max-width:60%;
+    }
+    header form label{
+        justify-content:center;
+    }
+}

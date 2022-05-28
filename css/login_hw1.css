@@ -1,0 +1,133 @@
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-image: radial-gradient(circle at 68.3% 118.3%, #9fdbdd 0, #9fdae1 4.17%, #a0dae5 8.33%, #a1d9e9 12.5%, #a4d8ec 16.67%, #a7d7ef 20.83%, #abd6f1 25%, #b0d5f3 29.17%, #b5d3f4 33.33%, #bbd2f4 37.5%, #c1d0f4 41.67%, #c7cff3 45.83%, #cdcdf2 50%, #d3cbf0 54.17%, #d9caed 58.33%, #dec8ea 62.5%, #e3c7e7 66.67%, #e8c6e3 70.83%, #ecc5df 75%, #efc4da 79.17%, #f2c4d6 83.33%, #f4c3d1 87.5%, #f6c3cc 91.67%, #f7c3c8 95.83%, #f7c4c3 100%);
+}
+a{
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "Anitas";
+    src: url(Anitas-Regular.ttf);
+}
+:root{
+    --color1: rgb(255, 255, 242);
+    --color2: #8CACD3;
+    --color3: #F0A1BF;
+
+}
+header{
+    font-family: 'Source Serif Pro', serif;
+    color: white;
+    background-color: rgba(244, 244, 255,0.7);
+    font-size: 16px;
+    padding:10%;
+    width: 26%;
+    height:50%;
+    border-radius:100px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:500px){
+
+    body{
+        font-size: 14;
+    }
+}
+
+
+header div{
+    font-size: 3em;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+
+#accesso{
+    font-family: 'Bebas Neue', cursive;
+    background-color: var(--color1);
+    color: var(--color3);
+    font-size: 1.2em;
+    border-radius: 100px;
+    border: 1px solid var(--color3);
+    padding: 5px 5px;
+    cursor: pointer;
+
+}
+
+a{
+    color: var(--color2);
+}
+@media (max-width:500px){
+    header{
+        font-size: 12px;
+        max-height:40%;
+        width:70%;
+        margin-top: 10%;
+       margin-bottom: 10%;
+    }
+}
+
+form{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+    margin: 5%;
+    text-align: center;
+
+}
+
+p{
+    margin: 0.5 em;
+    color: black;
+}
+
+label{
+    font-family: 'Source Serif Pro',sans-serif;
+    color: black;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color2);
+}
+input{
+    margin-left:10%;
+    border-radius: 50px;
+    border: 1px solid var(--color1);
+    background-color: var(--color1);
+}
+
+form h1{
+    font-size: 2em;
+    color: var(--color3);
+    font-family: 'Source Serif Pro', serif;
+}
+
+@media(max-width: 500px){
+    form{
+        width: 70%;
+        height: 100%;
+        align-items: center;
+    }
+    p label{
+        padding: 0 5px;
+        width:30%;
+    }
+}
+#logo {
+    margin:0;
+    font-family: 'Bebas Neue', cursive;
+    color:var(--color2);
+}

@@ -1,0 +1,121 @@
+
+header h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
+    letter-spacing: 2px;
+}
+
+header p{
+    font-family: 'Anitas',sans-serif;
+    color: var(--color3);
+    font-size: 4em;
+    z-index: 1;
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    font-family: 'Bebas Neue', cursive;
+    color: var(--color1);
+    font-size: 1.2em;
+    border-radius: 100px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 500px){
+    header h1{
+        line-height: 1;
+    }
+    header{
+        font-size: 0.5em;
+    }
+}
+
+
+section{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section div div{
+    padding: 2%;
+    border: none;
+    display: flex;    
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:70%;
+    height:100%;
+}
+section p{
+    font-size: 1.5em;
+    margin:2%;
+    color: var(--color3);
+}
+
+section h1{
+    color: var(--color3);
+}
+
+section div div p{
+    color: var(--color3)
+}
+section div{
+border: 2px solid #8CACD3;
+display: flex;
+color: #8CACD3;
+align-items: center;
+justify-content: center;
+max-height: 30%;
+width: 60%;
+margin:3%;
+}
+
+section a{
+     color: var(--color2);
+     border: 1px solid var(--color2);
+     border-radius: 100px;
+     padding: 1%;
+     margin-bottom:1%;
+ }
+section div img{
+    margin:5%;
+    max-width: 40%;
+    max-height: 100%;
+}
+
+section div p{
+    font-size: 1em;
+    width:100%;
+    color: black;
+}
+@media (max-width:500px){
+    section h1{
+        font-size: 1.2em;
+        margin:2%;
+    }
+    section p{
+        font-size: 1em;
+        padding: 0;
+    }
+    section div{
+        max-height: 30%;
+        max-width: 60%;
+        font-size: 0.7em;
+    }
+    section div img{
+        margin-right: 10%;
+    }
+}
+
+@media(max-width:500px){
+    footer{
+        height:100px;
+    }
+    section{
+        height:60%;
+    }
+}

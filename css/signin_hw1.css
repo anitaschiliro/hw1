@@ -1,0 +1,143 @@
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-image: radial-gradient(circle at 68.3% 118.3%, #9fdbdd 0, #9fdae1 4.17%, #a0dae5 8.33%, #a1d9e9 12.5%, #a4d8ec 16.67%, #a7d7ef 20.83%, #abd6f1 25%, #b0d5f3 29.17%, #b5d3f4 33.33%, #bbd2f4 37.5%, #c1d0f4 41.67%, #c7cff3 45.83%, #cdcdf2 50%, #d3cbf0 54.17%, #d9caed 58.33%, #dec8ea 62.5%, #e3c7e7 66.67%, #e8c6e3 70.83%, #ecc5df 75%, #efc4da 79.17%, #f2c4d6 83.33%, #f4c3d1 87.5%, #f6c3cc 91.67%, #f7c3c8 95.83%, #f7c4c3 100%);
+}
+a{
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "Anitas";
+    src: url(Anitas-Regular.ttf);
+}
+:root{
+    --color1: rgb(255, 255, 242);
+    --color2: #8CACD3;
+    --color3: #F0A1BF;
+
+}
+header{
+    border-radius:100px;
+    position:relative;
+    width: 40%;
+    height:95%;
+    padding:10px;
+    background-color: rgba(244, 244, 255,0.7);
+    font-family: 'Source Serif Pro', serif;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+@media (max-width:500px){
+    header{
+        height: 40%;
+    }
+    body{
+        font-size: 14;
+    }
+}
+
+#accesso{
+    font-family: 'Bebas Neue', cursive;
+    background-color: var(--color1);
+    color: var(--color3);
+    font-size: 1.2em;
+    border-radius: 100px;
+    border: 1px solid var(--color3);
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+a{
+    color: var(--color2);
+}
+@media (max-width:500px){
+    header{
+        font-size: 12px;
+        max-height:70%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+
+form{
+    margin:5%;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    text-align: center;
+
+}
+
+form p{
+    margin:5%;
+    color: black;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+label{
+    font-family: 'Source Serif Pro',sans-serif;
+    color: var(--color2);
+    font-size: 0.8em;
+}
+
+#consenti label{
+    display:flex;
+}
+input{
+    border-radius: 50px;
+     border: 1px solid var(--color1);
+    background-color: var(--color1);
+}
+
+form h1{
+    font-size: 1.5em;
+    margin-top:15%;
+    color: var(--color3);
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+@media(max-width: 500px){
+    form{
+        width: 70%;
+        height: 10%;
+        margin: 10%;
+    }
+    label{
+        margin: 0;
+    }
+    header{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+.error label {
+    color: 2px solid rgb(255, 0, 102);
+}
+
+form p span {
+    font-size: 11px;
+    color: 2px solid rgb(255, 0, 102);
+}
+
+.error input {
+    border: 2px solid rgb(255, 0, 102);
+}
+
+#logo {
+    margin-bottom:20px;
+    font-size:3em;
+    font-family: 'Bebas Neue', cursive;
+    color:var(--color2);
+}

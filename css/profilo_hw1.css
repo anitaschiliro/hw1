@@ -1,0 +1,203 @@
+
+header h1 {
+    font-size: 4em;
+    letter-spacing: 2px;
+}
+
+header p{
+    font-family: 'Anitas',sans-serif;
+    color: var(--color3);
+    font-size: 4em;
+    z-index: 1;
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 500px){
+    header{
+        font-size: 0.5em;
+    }
+}
+
+section{
+    justify-content: center;
+}
+
+section h1{
+    color:var(--color3);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10%;
+    max-width:70%;
+
+}
+.ordini{
+    background-image: radial-gradient(circle at 68.3% 118.3%, #9fdbdd 0, #9fdae1 4.17%, #a0dae5 8.33%, #a1d9e9 12.5%, #a4d8ec 16.67%, #a7d7ef 20.83%, #abd6f1 25%, #b0d5f3 29.17%, #b5d3f4 33.33%, #bbd2f4 37.5%, #c1d0f4 41.67%, #c7cff3 45.83%, #cdcdf2 50%, #d3cbf0 54.17%, #d9caed 58.33%, #dec8ea 62.5%, #e3c7e7 66.67%, #e8c6e3 70.83%, #ecc5df 75%, #efc4da 79.17%, #f2c4d6 83.33%, #f4c3d1 87.5%, #f6c3cc 91.67%, #f7c3c8 95.83%, #f7c4c3 100%);
+    border: 1px solid #8CACD3;
+    font-size: 12px;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 1;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 100%;
+}
+.ordini p{
+    color:black;
+}
+
+.articoli{
+    font-family: 'Source Serif Pro',sans-serif;
+    border: 1px solid #8CACD3;
+    display: flex;
+    color: #8CACD3;
+    flex-direction: row;
+    max-height: 50%;
+    width: 100%;
+}
+
+.articoli p{
+    margin: 0;
+    color: black;
+}
+.articoli img{
+    max-width: 30%;
+    max-height: 30%;
+    margin:5%;
+    margin-right: 30%;
+}
+
+.articoli div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:500px){
+    .ordini{
+        line-height:1.2;
+        font-size:0.7em;
+    }
+    .articoli{
+        max-height: 30%;
+    }
+    
+    .articoli img{
+    margin: 30% 2%;
+    margin-right:20%;
+    width: 50%;
+    height: 50%;
+    }
+
+    .articoli div{
+        max-height:70%;
+    }
+    .articoli p{
+        font-size:0.8em;
+        max-width:100%;
+    }
+
+    #recensione{
+        max-height:30%;
+        padding: 2px 7px;
+        font-size:0.6em;
+    }
+
+    section h1{
+        font-size:1.2em;
+        margin-bottom:0;
+    }
+}
+#recensione{
+    color: var(--color1);
+    border-radius: 100px;
+    background-color: var(--color3);
+    border: 1px solid var(--color1);
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom:2%;
+}
+
+.recensioni{
+    background-image: radial-gradient(circle at 68.3% 118.3%, #9fdbdd 0, #9fdae1 4.17%, #a0dae5 8.33%, #a1d9e9 12.5%, #a4d8ec 16.67%, #a7d7ef 20.83%, #abd6f1 25%, #b0d5f3 29.17%, #b5d3f4 33.33%, #bbd2f4 37.5%, #c1d0f4 41.67%, #c7cff3 45.83%, #cdcdf2 50%, #d3cbf0 54.17%, #d9caed 58.33%, #dec8ea 62.5%, #e3c7e7 66.67%, #e8c6e3 70.83%, #ecc5df 75%, #efc4da 79.17%, #f2c4d6 83.33%, #f4c3d1 87.5%, #f6c3cc 91.67%, #f7c3c8 95.83%, #f7c4c3 100%);
+    box-shadow: 5px 5px var(--color2);
+    padding:5%;
+    margin: 10%;
+    width:60%;
+    text-align:center; 
+    display: flex;
+}
+
+.recensioni h1{
+    margin:0;
+    font-size:1.2em;
+}
+.recensioni p{
+    font-size:1em;
+    padding:0;
+    margin:10% 0;
+}
+
+@media (max-width:500px){
+    .recensioni{
+    padding:3%;
+    max-width:60%;
+    max-height:60%;
+    }
+
+.recensioni h1{
+    font-size:0.7em;
+}
+.recensioni p{
+    font-size:0.5em;
+    margin:10% 0;
+}
+.recensioni a{
+    font-size:0.5em;
+}
+}
+p#avviso {
+      background-image: radial-gradient(circle at 68.3% 118.3%, #9fdbdd 0, #9fdae1 4.17%, #a0dae5 8.33%, #a1d9e9 12.5%, #a4d8ec 16.67%, #a7d7ef 20.83%, #abd6f1 25%, #b0d5f3 29.17%, #b5d3f4 33.33%, #bbd2f4 37.5%, #c1d0f4 41.67%, #c7cff3 45.83%, #cdcdf2 50%, #d3cbf0 54.17%, #d9caed 58.33%, #dec8ea 62.5%, #e3c7e7 66.67%, #e8c6e3 70.83%, #ecc5df 75%, #efc4da 79.17%, #f2c4d6 83.33%, #f4c3d1 87.5%, #f6c3cc 91.67%, #f7c3c8 95.83%, #f7c4c3 100%);
+    box-shadow: 5px 5px var(--color2);
+    padding: 5%;
+    margin: 10%;
+    text-align: center;
+    display: flex;
+    border-radius: 0;
+}
+
+.articoli form{
+    width:90%;
+    flex-wrap:wrap;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+}
+.articoli form input{
+    max-width:95%;
+    margin-bottom:5%;
+    border-radius: 100px;
+    background-image: radial-gradient(circle at 68.3% 118.3%, #9fdbdd 0, #9fdae1 4.17%, #a0dae5 8.33%, #a1d9e9 12.5%, #a4d8ec 16.67%, #a7d7ef 20.83%, #abd6f1 25%, #b0d5f3 29.17%, #b5d3f4 33.33%, #bbd2f4 37.5%, #c1d0f4 41.67%, #c7cff3 45.83%, #cdcdf2 50%, #d3cbf0 54.17%, #d9caed 58.33%, #dec8ea 62.5%, #e3c7e7 66.67%, #e8c6e3 70.83%, #ecc5df 75%, #efc4da 79.17%, #f2c4d6 83.33%, #f4c3d1 87.5%, #f6c3cc 91.67%, #f7c3c8 95.83%, #f7c4c3 100%);
+    border: 1px solid var(--color3);
+    background-color: rgb(255 255 242 / 61%);
+}
+@media(max-width:500px){
+    footer{
+        height:100px;
+    }
+    .articoli form input{
+        max-width:100%;
+        font-size:0.6em;
+    }
+}
